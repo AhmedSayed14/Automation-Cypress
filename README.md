@@ -1,5 +1,3 @@
-# Cypress Cucumber
-
 ## Getting Started
 * install npm:
 ```sh
