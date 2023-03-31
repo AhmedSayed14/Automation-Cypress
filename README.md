@@ -21,6 +21,15 @@
 ```sh
  ./node_modules/.bin/cypress open
 ```
+* Run Test cases
+```sh
+ go to cypress open cd /project/path
+ ```
+ ```sh
+  execute 'npx cypress open' for Cypress UI 
+  or  
+  'npx cypress run' to run in headless browser and report will be generated under cypress/results
+ ```
 * To run test cases click on any cy.js file and cypress run test cases on the chosen browser.
-* The test cases report will be extracted at location: Cypress/results
-* After you you finish make sure to remove the generated test cases report folders Cypress/results from the root folder.
+* The test cases report will be extracted at location: cypress/results when using "npx cypress run"
+* After you you finish make sure to remove the generated test cases report folders cypress/results from the root folder.
